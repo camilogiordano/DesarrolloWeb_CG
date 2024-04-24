@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  line-height: 0; }
+
+.body-index {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+  background-image: url(../assets/textura-grano-fondo.jpg);
+  background-size: cover; }
+
+.body-pages {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+  background-image: url(../assets/grano3200.jpg);
+  background-size: contain; }
+
+nav ul {
+  margin: 0; }
+  nav ul li {
+    margin: 0; }
+    nav ul li a {
+      font-size: 1rem; }
+
+h6 {
+  line-height: 1; }
+
+header {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  width: 100%;
+  height: 65px; }
+  header a img {
+    max-width: 40px;
+    max-height: auto; }
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 15px; }
+    header nav ul li a {
+      text-decoration: none;
+      color: white; }
+      header nav ul li a:hover {
+        color: #bebebe; }
+
+.main-index {
+  display: grid; }
+  .main-index section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    gap: 75px; }
+    .main-index section hr {
+      border: none;
+      height: 2px;
+      background-color: white;
+      margin: 0px 30%; }
+  .main-index div {
+    display: grid;
+    overflow-wrap: break-word;
+    justify-content: space-between;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgba(67, 67, 67, 0.703);
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    gap: 3.125rem;
+    margin-bottom: 50px; }
+    .main-index div img {
+      max-width: 300px;
+      max-height: 300px;
+      margin: 25px;
+      border-radius: 5px; }
+    .main-index div p {
+      color: white;
+      font-family: "League Spartan", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 200;
+      font-style: normal;
+      font-size: 1.5rem;
+      line-height: 1.3;
+      padding: 30px;
+      text-align: justify;
+      justify-content: center; }
+
+.hr-line {
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin: 60px 7%; }
+
+.body-pages main div h3 {
+  padding: 120px 150px 150px 150px;
+  line-height: 0; }
+
+.galerias-rodaje {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  padding-bottom: 30px; }
+
+.Titulo-rodaje {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 30px;
+  padding-right: 50px; }
+  .Titulo-rodaje a img {
+    max-width: 200px;
+    max-height: auto; }
+
+.galeria {
+  width: auto;
+  height: 585px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 75px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  gap: 12px; }
+
+.galeria::-webkit-scrollbar {
+  width: 10px; }
+
+.galeria::-webkit-scrollbar-track {
+  background: #4b4b4b; }
+
+.galeria::-webkit-scrollbar-thumb {
+  background: #9c9c9c;
+  border-radius: 5px; }
+
+.galeria::-webkit-scrollbar-thumb:hover {
+  background: #eeeeee; }
+
+footer {
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: none;
+  background-color: rgba(255, 255, 255, 0.119);
+  width: 100%;
+  height: 65px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  bottom: 1; }
+  footer div h6 {
+    margin-bottom: 0;
+    line-height: 1; }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: none;
+    gap: 15px; }
+    footer div p {
+      color: #e8e8e8;
+      font-family: "League Spartan", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: italic;
+      text-align: left;
+      font-size: 1rem;
+      margin-bottom: 0; }
+    footer div a img {
+      max-height: 24.6px; }
+      footer div a img:hover {
+        max-height: 25px; }
+
+.r01 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 75px;
+  padding: 100px; }
+  .r01 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r02 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r02 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r03 {
+  display: grid;
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r03 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r04 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r04 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r05 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r05 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r06 {
+  display: grid;
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r06 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r07 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r07 img {
+    max-width: 100%;
+    max-height: auto; }
+
+h1 {
+  color: #e8e8e8;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8.5rem;
+  line-height: 1; }
+
+h2 {
+  color: #e8e8e8;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20;
+  font-style: normal;
+  font-size: 4.5rem; }
+
+h3 {
+  color: #e8e8e8;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.5rem;
+  text-align: left; }
+
+h4 {
+  color: #e8e8e8;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  text-align: right;
+  font-size: 1.5rem;
+  line-height: 1.4; }
+
+h5 {
+  color: #e8e8e8;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: right;
+  font-size: 3rem; }
+
+h6 {
+  color: #e8e8e8;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+  text-align: left;
+  font-size: 1rem; }
+
+.subtituloLight {
+  font-size: 1.5rem;
+  font-weight: 100; }
+
+.iframeh4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 100px; }
+  .iframeh4 iframe {
+    max-width: 30%; }
+
+.padd-bottom {
+  padding-bottom: 50px; }
+
+.carousel-item img {
+  width: 100%;
+  height: 95vh;
+  object-fit: contain;
+  padding-bottom: 20px; }
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; }
+  .formulario form {
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 600px; }
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative; }
+  .input-group input, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    border-radius: 5px; }
+  .input-group label {
+    height: 100%;
+    position: absolute;
+    padding: 20px;
+    left: 0;
+    top: 0;
+    cursor: text;
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal; }
+
+.boton {
+  display: flex;
+  justify-content: flex-end; }
+  .boton button {
+    padding: 10px 0;
+    color: white;
+    outline: none;
+    background: transparent;
+    border: 3px solid white;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; }
+
+.shadow-drop-2-top {
+  -webkit-animation: shadow-drop-2-top 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
+  animation: shadow-drop-2-top 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both; }
+
+@-webkit-keyframes shadow-drop-2-top {
+  0% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+  100% {
+    -webkit-transform: translateZ(50px) translateY(12px);
+    transform: translateZ(50px) translateY(12px);
+    -webkit-box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35); } }
+
+@keyframes shadow-drop-2-top {
+  0% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+  100% {
+    -webkit-transform: translateZ(50px) translateY(12px);
+    transform: translateZ(50px) translateY(12px);
+    -webkit-box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35); } }
+
+@media (max-width: 768px) {
+  header {
+    height: 45px; }
+    header a img {
+      max-width: 25px; }
+    header nav ul {
+      padding: 12px;
+      gap: 12px; }
+      header nav ul li a {
+        font-size: 0.7rem; }
+  footer {
+    height: 45px; }
+    footer div h6 {
+      font-size: 0.7rem; }
+    footer div p {
+      font-size: 0.7rem; }
+    footer div a img {
+      max-height: 15px; } }
+
+@media (max-width: 768px) {
+  .main-index section {
+    height: 400px;
+    gap: 45px; }
+    .main-index section h1 {
+      font-size: 4rem; }
+    .main-index section h2 {
+      font-size: 2rem; }
+  .main-index div {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 55% 45%;
+    align-content: center;
+    margin-bottom: 50px;
+    gap: 0; }
+    .main-index div img {
+      max-width: 175px;
+      max-height: 175px; }
+    .main-index div p {
+      font-size: 1rem;
+      margin-bottom: 50px; } }
+
+@media (max-width: 768px) {
+  .body-pages main div h3 {
+    font-size: 2rem;
+    padding: 70px;
+    text-align: center; }
+  .body-pages main div {
+    padding: 10px 10px 0px 10px;
+    gap: 10px; } }
+
+.r07 {
+  margin-bottom: 20px; }
+
+@media (max-width: 768px) {
+  .iframeh4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px; }
+    .iframeh4 iframe {
+      max-width: 90%; }
+  h5 {
+    text-align: center;
+    font-size: 2rem; }
+  .carousel-item img {
+    height: 50vh; } }
+
+@media (max-width: 768px) {
+  .Titulo-rodaje {
+    gap: 20px; }
+    .Titulo-rodaje h4 {
+      font-size: 0.75rem; }
+    .Titulo-rodaje a img {
+      max-width: 100px; }
+  .galeria {
+    height: 375px; }
+  .galerias-rodaje section {
+    margin-bottom: 75px; } }
+
+@media (max-width: 320px) {
+  .main-index section {
+    height: 300px; }
+    .main-index section h1 {
+      font-size: 2rem; }
+    .main-index section h2 {
+      font-size: 1rem;
+      padding-top: 14px; }
+  .main-index div {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 42% 58%;
+    align-content: center;
+    margin-bottom: 50px;
+    gap: 0; }
+    .main-index div p {
+      font-size: 1rem;
+      margin-bottom: 30px; } }
+
+@media (max-width: 320px) {
+  .h3bandas {
+    margin-bottom: 40px; }
+  .carousel-item img {
+    height: 200px; } }
+
+@media (max-width: 320px) {
+  .Titulo-rodaje {
+    gap: 20px; }
+    .Titulo-rodaje h4 {
+      font-size: 0.60rem; }
+    .Titulo-rodaje a img {
+      max-width: 100px; }
+  .galeria {
+    height: 225px; }
+  .galerias-rodaje section {
+    margin-bottom: 75px; } }

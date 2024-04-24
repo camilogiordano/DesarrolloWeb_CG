@@ -1,0 +1,30 @@
+
+@import "./base/reset";
+@import "./base/typografias";
+@import "./base/generales";
+@import "./utilities/mixins.scss";
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-retratos";
+@import "./layout/main-bandas";
+@import "./layout/main-backstage";
+@import "./layout/main-contacto";
+@import "./layout/footer";
+
+
+@import "./components/galeriaretratos";
+@import "./components/h";
+@import "./components/iframeBandas";
+@import "./components/carouselBandas";
+@import "./components/formulario";
+@import "./components/animaciones";
+
+@import "./layout/mediaQuerry/768/header-footer768";
+@import "./layout/mediaQuerry/768/index768";
+@import "./layout/mediaQuerry/768/retratos768";
+@import "./layout/mediaQuerry/768/bandas768";
+@import "./layout/mediaQuerry/768/rodajes768";
+@import "./layout/mediaQuerry/320/index320";
+@import "./layout/mediaQuerry/320/bandas320";
+@import "./layout/mediaQuerry/320/rodajes320";
