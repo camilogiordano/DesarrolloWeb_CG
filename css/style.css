@@ -313,7 +313,7 @@ h5 {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  text-align: right;
+  text-align: left;
   font-size: 3rem; }
 
 h6 {
@@ -336,6 +336,9 @@ h6 {
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 100px; }
+  .iframeh4 h5 {
+    align-items: left;
+    text-align: left; }
   .iframeh4 iframe {
     max-width: 30%; }
 
