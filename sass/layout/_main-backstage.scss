@@ -28,6 +28,10 @@
         img{
             max-width: 200px;
             max-height: auto;
+            transition: 0.2s ease;
+                &:hover{
+                    transform: scale(1.05);
+                }
         }
     }
 }

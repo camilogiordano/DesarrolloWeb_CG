@@ -5,8 +5,8 @@ footer{
     background-color: rgba(255, 255, 255, 0.119);
     width: 100%;
     height: 65px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     bottom: 1;
     div{
         h6{
@@ -29,9 +29,10 @@ footer{
         }
         a{
             img{
-                max-height: 24.6px;
+                max-height: 24px;
+                transition: 0.2s ease;
                 &:hover{
-                    max-height: 25px;
+                    transform: scale(1.1);
                 }
             }
         }

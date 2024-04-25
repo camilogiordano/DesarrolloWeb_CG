@@ -7,6 +7,12 @@ h1{
     font-style: normal;
     font-size: 8.5rem;
     line-height: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: 0.2s ease;
+    &:hover{
+        transform: scale(1.05);
+    }
 }
 
 h2{
@@ -47,7 +53,7 @@ h5{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    text-align: right;
+    text-align: left;
     font-size: 3rem;
 
 }

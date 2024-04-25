@@ -1,0 +1,22 @@
+@media (max-width: 320px){
+
+    
+    footer{
+        height: 45px;
+        div{
+            h6{
+                font-size: 0.6rem;
+            }
+        }
+        div{
+            p{
+                font-size: 0.6rem;
+            }
+            a{
+                img{
+                    max-height: 15px;
+                }
+            }
+        }
+    }
+}
