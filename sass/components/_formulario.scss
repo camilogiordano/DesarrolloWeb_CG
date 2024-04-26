@@ -9,6 +9,13 @@
 .input-group{
     margin-bottom: 30px;
     position: relative;
+    input[type="text"]::placeholder,
+    input[type="email"]::placeholder,
+    textarea::placeholder {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;}
     input, textarea{
         width: 100%;
         padding: 10px;
@@ -49,5 +56,9 @@
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
+        &:hover{
+            background-color: white;
+            color: black;
+        }
     }
 }

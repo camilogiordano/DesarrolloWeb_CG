@@ -314,7 +314,7 @@ h5 {
   font-weight: 500;
   font-style: normal;
   text-align: left;
-  font-size: 3rem; }
+  font-size: 3.5rem; }
 
 h6 {
   color: #e8e8e8;
@@ -326,7 +326,7 @@ h6 {
   font-size: 1rem; }
 
 .subtituloLight {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 100; }
 
 .iframeh4 {
@@ -365,6 +365,13 @@ h6 {
 .input-group {
   margin-bottom: 30px;
   position: relative; }
+  .input-group input[type="text"]::placeholder,
+  .input-group input[type="email"]::placeholder,
+  .input-group textarea::placeholder {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; }
   .input-group input, .input-group textarea {
     width: 100%;
     padding: 10px;
@@ -403,6 +410,9 @@ h6 {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal; }
+    .boton button:hover {
+      background-color: white;
+      color: black; }
 
 .shadow-drop-2-top {
   -webkit-animation: shadow-drop-2-top 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
@@ -506,9 +516,9 @@ h6 {
     margin-top: 0px; }
     .iframeh4 iframe {
       max-width: 90%; }
-  h5 {
-    text-align: center;
-    font-size: 2rem; }
+    .iframeh4 h5 {
+      text-align: center;
+      font-size: 2rem; }
   .carousel-item img {
     height: 50vh; } }
 
@@ -547,7 +557,11 @@ h6 {
   .h3bandas {
     margin-bottom: 40px; }
   .carousel-item img {
-    height: 200px; } }
+    height: 200px; }
+  .iframeh4 h5 {
+    font-size: 1.5rem; }
+    .iframeh4 h5 .subtituloLight {
+      font-size: 1rem; } }
 
 @media (max-width: 320px) {
   .Titulo-rodaje {
