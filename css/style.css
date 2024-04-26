@@ -16,6 +16,14 @@ body {
   background-image: url(../assets/textura-grano-fondo.jpg);
   background-size: cover; }
 
+.body-index_d {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+  background-image: url(../assets/fondo_digital.jpg);
+  background-size: cover; }
+
 .body-pages {
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
@@ -76,6 +84,10 @@ header {
       height: 2px;
       background-color: white;
       margin: 0px 30%; }
+    .main-index section h2 a {
+      text-decoration: none;
+      color: inherit;
+      cursor: crosshair; }
   .main-index div {
     display: grid;
     overflow-wrap: break-word;
