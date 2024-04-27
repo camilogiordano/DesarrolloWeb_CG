@@ -32,6 +32,14 @@ body {
   background-image: url(../assets/grano3200.jpg);
   background-size: contain; }
 
+.body-pages_d {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+  background-image: url(../assets/fondo_digital_2.jpg);
+  background-size: cover; }
+
 nav ul {
   margin: 0; }
   nav ul li {
@@ -173,6 +181,10 @@ header {
 
 .galeria::-webkit-scrollbar-thumb:hover {
   background: #eeeeee; }
+
+.body-pages_d main div h3 {
+  padding: 120px 150px 150px 150px;
+  line-height: 0; }
 
 footer {
   position: absolute;
