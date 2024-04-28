@@ -1,3 +1,20 @@
+.maindigital{
+    hr{
+        border: none;
+        height: 2px;
+        background-color: white;
+        margin: 5rem 10rem;
+    }
+    section{
+        div{
+            p{
+                color: white;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
 .stone{
     display: flex;
     flex-direction: row;
@@ -6,7 +23,7 @@
     margin-bottom: 50px;
     gap: 5px;
     img{
-        height: 600px;
+        width: 35%;
         border:solid 15px;
         border-color: white;
     }
@@ -19,7 +36,7 @@
     margin-bottom: 50px;
     gap: 5px;
     img{
-        height: 450px;
+        width: 45%;
         border:solid 15px;
         border-color: white;
     }

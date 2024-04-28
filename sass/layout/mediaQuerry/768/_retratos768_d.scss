@@ -1,0 +1,27 @@
+@media (max-width: 768px){
+    .maindigital{
+        div{
+            h3{
+                font-size: 2rem;
+                padding: 70px;
+                text-align: center;
+            }
+        }
+        hr{
+            margin: 1rem 5rem 3rem 5rem;
+        }
+    }
+}
+.sturla{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+    padding: 0% 10% 10% 10%;
+    img{
+        width: 100%;
+        border: solid 10px;
+        border-color: white;
+    }
+
+}

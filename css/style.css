@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=VT323&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +40,14 @@ body {
   font-weight: 0;
   font-style: normal;
   background-image: url(../assets/fondo_digital_2.jpg);
+  background-size: cover; }
+
+.body-pages-c {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+  background-image: url(../assets/fondo-contacto.jpg);
   background-size: cover; }
 
 nav ul {
@@ -127,6 +137,12 @@ header {
       justify-content: center;
       margin-right: 90px; }
 
+.analog-font {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; }
+
 .hr-line {
   border: none;
   height: 2px;
@@ -182,6 +198,21 @@ header {
 .galeria::-webkit-scrollbar-thumb:hover {
   background: #eeeeee; }
 
+.body-pages-c main div h3 {
+  padding: 120px 150px 150px 150px;
+  line-height: 0; }
+
+.maindigital hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin: 5rem 10rem; }
+
+.maindigital section div p {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px; }
+
 .stone {
   display: flex;
   flex-direction: row;
@@ -190,7 +221,7 @@ header {
   margin-bottom: 50px;
   gap: 5px; }
   .stone img {
-    height: 600px;
+    width: 35%;
     border: solid 15px;
     border-color: white; }
 
@@ -202,7 +233,7 @@ header {
   margin-bottom: 50px;
   gap: 5px; }
   .lugar img {
-    height: 450px;
+    width: 45%;
     border: solid 15px;
     border-color: white; }
 
@@ -218,22 +249,18 @@ header {
     border-color: white; }
 
 .paddtop {
-  margin-bottom: 80px; }
+  margin-bottom: 60px; }
 
 .body-pages_d main div h3 {
   padding: 120px 150px 150px 150px;
   line-height: 0; }
 
-.maindigital hr {
-  border: none;
-  height: 2px;
-  background-color: white;
-  margin: 5rem 10rem; }
-
-.maindigital section div p {
-  color: white;
-  text-align: center;
-  margin-bottom: 50px; }
+.digital-font {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+  padding-left: 1%; }
 
 footer {
   position: absolute;
@@ -606,6 +633,39 @@ h6 {
     height: 375px; }
   .galerias-rodaje section {
     margin-bottom: 75px; } }
+
+@media (max-width: 768px) {
+  .maindigital div h3 {
+    font-size: 2rem;
+    padding: 70px;
+    text-align: center; }
+  .maindigital hr {
+    margin: 1rem 5rem 3rem 5rem; } }
+
+.sturla {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+  padding: 0% 10% 10% 10%; }
+  .sturla img {
+    width: 100%;
+    border: solid 10px;
+    border-color: white; }
+
+@media (max-width: 768px) {
+  .body-pages_d main div h3 {
+    font-size: 2rem;
+    padding: 70px;
+    text-align: center; } }
+
+.r07 {
+  margin-bottom: 20px; }
+
+@media (max-width: 768px) {
+  .galerias-rodaje {
+    gap: 20px;
+    padding-bottom: 30px; } }
 
 @media (max-width: 320px) {
   .main-index section {
