@@ -1,0 +1,16 @@
+.sturla{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+    padding: 0% 28% 0% 28%;
+    img{
+        width: 100%;
+        border: solid 10px;
+        border-color: white;
+    }
+
+}
+.paddtop{
+    margin-bottom: 80px;
+}

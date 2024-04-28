@@ -1,0 +1,26 @@
+.stone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 5px;
+    img{
+        height: 600px;
+        border:solid 15px;
+        border-color: white;
+    }
+}
+.lugar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 5px;
+    img{
+        height: 450px;
+        border:solid 15px;
+        border-color: white;
+    }
+}

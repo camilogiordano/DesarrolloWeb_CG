@@ -13,9 +13,7 @@
         border: none;
         height: 2px;
         background-color: white;
-        margin: 0px 10rem;
-        margin-bottom: 5rem;
-        margin-top: 5rem;
+        margin: 5rem 10rem;
     }
     section{
         div{
@@ -25,31 +23,5 @@
                 margin-bottom: 50px;
             }
         }
-    }
-}
-.stone{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    margin-bottom: 50px;
-    gap: 5px;
-    img{
-        height: 600px;
-        border:solid 15px;
-        border-color: white;
-    }
-}
-.lugar{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    margin-bottom: 50px;
-    gap: 5px;
-    img{
-        height: 450px;
-        border:solid 15px;
-        border-color: white;
     }
 }

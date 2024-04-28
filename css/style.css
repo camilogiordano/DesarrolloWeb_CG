@@ -182,23 +182,6 @@ header {
 .galeria::-webkit-scrollbar-thumb:hover {
   background: #eeeeee; }
 
-.body-pages_d main div h3 {
-  padding: 120px 150px 150px 150px;
-  line-height: 0; }
-
-.maindigital hr {
-  border: none;
-  height: 2px;
-  background-color: white;
-  margin: 0px 10rem;
-  margin-bottom: 5rem;
-  margin-top: 5rem; }
-
-.maindigital section div p {
-  color: white;
-  text-align: center;
-  margin-bottom: 50px; }
-
 .stone {
   display: flex;
   flex-direction: row;
@@ -222,6 +205,35 @@ header {
     height: 450px;
     border: solid 15px;
     border-color: white; }
+
+.sturla {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+  padding: 0% 28% 0% 28%; }
+  .sturla img {
+    width: 100%;
+    border: solid 10px;
+    border-color: white; }
+
+.paddtop {
+  margin-bottom: 80px; }
+
+.body-pages_d main div h3 {
+  padding: 120px 150px 150px 150px;
+  line-height: 0; }
+
+.maindigital hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin: 5rem 10rem; }
+
+.maindigital section div p {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px; }
 
 footer {
   position: absolute;
