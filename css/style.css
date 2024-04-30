@@ -60,6 +60,9 @@ nav ul {
 h6 {
   line-height: 1; }
 
+strong {
+  font-weight: 500; }
+
 header {
   background-color: rgba(255, 255, 255, 0.2);
   display: flex;
