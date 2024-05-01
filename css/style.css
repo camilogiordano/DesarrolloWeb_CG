@@ -559,6 +559,7 @@ h6 {
       header nav ul li a {
         font-size: 0.7rem; }
   footer {
+    bottom: 1;
     height: 45px; }
     footer div h6 {
       font-size: 0.7rem; }
@@ -678,7 +679,7 @@ h6 {
     font-size: 2rem;
     padding: 70px;
     text-align: center; }
-  footer {
+  .body-pages-c footer {
     bottom: 0; }
   .formulario {
     padding-left: 10px;
