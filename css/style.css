@@ -205,6 +205,9 @@ header {
   padding: 120px 150px 150px 150px;
   line-height: 0; }
 
+footer {
+  bottom: 1; }
+
 .maindigital hr {
   border: none;
   height: 2px;
@@ -674,7 +677,12 @@ h6 {
   .body-pages-c main div h3 {
     font-size: 2rem;
     padding: 70px;
-    text-align: center; } }
+    text-align: center; }
+  footer {
+    bottom: 0; }
+  .formulario {
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 @media (max-width: 320px) {
   .main-index section {
