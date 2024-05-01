@@ -670,6 +670,12 @@ h6 {
     gap: 20px;
     padding-bottom: 30px; } }
 
+@media (max-width: 768px) {
+  .body-pages-c main div h3 {
+    font-size: 2rem;
+    padding: 70px;
+    text-align: center; } }
+
 @media (max-width: 320px) {
   .main-index section {
     height: 300px; }
